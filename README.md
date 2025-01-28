@@ -9,16 +9,17 @@ Scripts\edne-correios-loader load ^
 pause
 
 Meu pip list estava assim e funcionou:
-click                8.1.8
-colorama             0.4.6
-edne-correios-loader 0.1.3
-greenlet             3.1.1
-mysqlclient          2.2.7
-pip                  25.0
-PyMySQL              1.1.1
-setuptools           65.5.0
-SQLAlchemy           2.0.37
-typing_extensions    4.12.2
+
+- click                8.1.8
+- colorama             0.4.6
+- edne-correios-loader 0.1.3
+- greenlet             3.1.1
+- mysqlclient          2.2.7
+- pip                  25.0
+- PyMySQL              1.1.1
+- setuptools           65.5.0
+- SQLAlchemy           2.0.37
+- typing_extensions    4.12.2
 
 O arquivo descompactado em extracted tinha as pastas: Delimitado, Fluxo, LEIAME.TXT ....
 
