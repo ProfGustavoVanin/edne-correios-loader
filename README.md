@@ -1,3 +1,15 @@
+O código funciona igual uma luva (aqui é só um fork do trabalho original)
+Dica:utilizar o pymysql em um arquivo "run.bat" com o texto abaixo. Neste caso o banco tem o nome de "cep".
+
+@echo off
+Scripts\edne-correios-loader load ^
+  --dne-source C:\.....\extracted ^
+  --database-url mysql+pymysql://root:root@localhost:3306/cep ^
+  --tables all
+pause
+
+
+
 # e-DNE Correios Loader
 
 [![PyPI - Version](https://img.shields.io/pypi/v/edne-correios-loader.svg)](https://pypi.org/project/edne-correios-loader)
