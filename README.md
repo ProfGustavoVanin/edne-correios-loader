@@ -1,6 +1,6 @@
 O código funciona igual uma luva (aqui é só um fork do trabalho original https://github.com/cauethenorio/edne-correios-loader )
 
-Dica:utilizar o pymysql em um arquivo "run.bat" com o texto abaixo. Neste caso o banco tem o nome de "cep".
+Dica:utilizar o pymysql em um arquivo "run.bat" com o texto abaixo. Neste caso o banco tem o nome de "cep" (CRIEI O BANCO ANTES DE RODAR O PROCESSO).
 
 ```@echo off
 Scripts\edne-correios-loader load ^
