@@ -1,4 +1,4 @@
-O código funciona igual uma luva (aqui é só um fork do trabalho original)
+O código funciona igual uma luva (aqui é só um fork do trabalho original https://github.com/cauethenorio/edne-correios-loader )
 Dica:utilizar o pymysql em um arquivo "run.bat" com o texto abaixo. Neste caso o banco tem o nome de "cep".
 
 @echo off
@@ -7,6 +7,20 @@ Scripts\edne-correios-loader load ^
   --database-url mysql+pymysql://root:root@localhost:3306/cep ^
   --tables all
 pause
+
+Meu pip list estava assim e funcionou:
+click                8.1.8
+colorama             0.4.6
+edne-correios-loader 0.1.3
+greenlet             3.1.1
+mysqlclient          2.2.7
+pip                  25.0
+PyMySQL              1.1.1
+setuptools           65.5.0
+SQLAlchemy           2.0.37
+typing_extensions    4.12.2
+
+O arquivo descompactado em extracted tinha as pastas: Delimitado, Fluxo, LEIAME.TXT ....
 
 
 
